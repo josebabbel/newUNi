@@ -27,3 +27,8 @@ var	fromIndex = columns.indexOf(from),
 			
 			if(column.visible){
 				
+if(!ifVisible){
+					if(offset > 0 && offset + colEl.offsetWidth < this.element.clientWidth){
+						return false;
+					}
+				}
