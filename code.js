@@ -14,7 +14,7 @@ var	fromIndex = columns.indexOf(from),
 				}
 				
 			}else{
-				toIndex = fromIndex;
+				toIndex = fromIndex;//hi
 			}
       
 			if(typeof position === "undefined"){
